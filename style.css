@@ -45,7 +45,7 @@ footer {
   font-size: 30px;
 }
 
-.fab {
+i {
   border-bottom: none;
   padding-left:21px;
   padding-right:21px;
@@ -53,18 +53,7 @@ footer {
   margin-bottom:15px;
 }
 
-.fab:hover {
-  border-bottom:5px solid #fff;
-}
-.far {
-  border-bottom: none;
-  padding-left:21px;
-  padding-right:21px;
-  padding-bottom:10px;
-  margin-bottom:15px;
-}
-
-.far:hover {
+i:hover {
   border-bottom:5px solid #fff;
 }
 
