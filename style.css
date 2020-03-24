@@ -39,9 +39,33 @@ img {
 
 footer {
   text-align: center;
-  padding: 30px;
-  padding-top: 80px;
-  font-size: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom:50px;
+  font-size: 30px;
+}
+
+.fab {
+  border-bottom: none;
+  padding-left:21px;
+  padding-right:21px;
+  padding-bottom:10px;
+  margin-bottom:15px;
+}
+
+.fab:hover {
+  border-bottom:5px solid #fff;
+}
+.far {
+  border-bottom: none;
+  padding-left:21px;
+  padding-right:21px;
+  padding-bottom:10px;
+  margin-bottom:15px;
+}
+
+.far:hover {
+  border-bottom:5px solid #fff;
 }
 
 #center {
