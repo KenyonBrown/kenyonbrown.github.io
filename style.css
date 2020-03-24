@@ -45,15 +45,15 @@ footer {
   font-size: 30px;
 }
 
-i {
-  border-bottom: none;
-  padding-left:21px;
-  padding-right:21px;
-  padding-bottom:10px;
-  margin-bottom:15px;
+.fa-lg {
+  border-bottom: none !important;
+  padding-left:16px !important;
+  padding-right:16px !important;
+  padding-bottom:10px !important;
+  margin-bottom:15px !important;
 }
 
-i:hover {
+.fa-lg:hover {
   border-bottom:5px solid #fff;
 }
 
