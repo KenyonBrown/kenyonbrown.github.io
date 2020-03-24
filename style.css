@@ -45,7 +45,7 @@ footer {
   font-size: 30px;
 }
 
-.fa-lg {
+a.fa-lg {
   border-bottom: none !important;
   padding-left:16px !important;
   padding-right:16px !important;
@@ -53,7 +53,7 @@ footer {
   margin-bottom:15px !important;
 }
 
-.fa-lg:hover {
+a.fa-lg:hover {
   border-bottom:5px solid #fff;
 }
 
