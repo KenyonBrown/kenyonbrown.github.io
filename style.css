@@ -2,11 +2,11 @@
 
 body {
   font-family: 'Avenir Next', 'Montserrat', sans-serif;
-  color: #fff;
+  color: #ffffff;
   font-size: 40px;
   padding: 20px;
   padding-top: 80px;
-  background-image: linear-gradient(-80deg, #ff9966, #ff5e62)
+  background-color: #000000;
 }
 
 a {
@@ -34,6 +34,13 @@ img {
     max-width: 600px;
     text-align: left;
     font-weight: 700;
+    background-color: #ffffff;
+    background-image: linear-gradient(-70deg, #ff9966, #ff5e62);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 
 footer {
@@ -58,4 +65,11 @@ footer {
 
 #center {
   text-align: center;
+}
+
+::selection {
+  background: rgba(81, 17, 217, .75); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgba(81, 17, 217, .75); /* Gecko Browsers */
 }
