@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300i,400i,400,500,600,700|Nunito:400,600,700,800');
 
+@font-face {
+  font-family: "Rota-1";
+  src: url("assets/Rota-Bold.otf") format("opentype")
+  }
+
 body {
-  font-family: 'Avenir Next', 'Montserrat', sans-serif;
+  font-family: 'Rota-1', 'Avenir Next', 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 35px;
   padding: 20px;
   padding-top: 80px;
-  background-color: #a08679;
+  background-color: #fff;
+background-image: linear-gradient(180deg, #E07154 0%, #D88BA0 50%, #C29582 100%);
 }
 
 a {
