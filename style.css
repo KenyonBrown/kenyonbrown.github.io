@@ -1,14 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300i,400i,400,500,600,700|Nunito:400,600,700,800');
-
-@font-face {
-  font-family: "Satoshi-1";
-  src: url('assets/Satoshi-Bold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('assets/Satoshi-Bold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('assets/Satoshi-Bold.ttf')  format('truetype') /* Safari, Android, iOS */
-  }
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Lora:ital@1&display=swap');
 
 body {
-  font-family: 'Satoshi-1', 'Avenir Next', 'Montserrat', sans-serif;
+  font-family: 'Lora', 'Baskerville', sans-serif;
+  font-style: italic;
   color: #ffffff;
   font-size: 35px;
   padding: 20px;
@@ -41,7 +35,7 @@ img {
     margin-right: auto;
     max-width: 600px;
     text-align: left;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 footer {
